@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: client
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yewon-Noh/spring-cloud
+          search-paths: spring-cloud-config/config-file/**
+          default-label: main
+          basedir: ./repo
