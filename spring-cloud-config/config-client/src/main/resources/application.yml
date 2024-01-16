@@ -8,3 +8,9 @@ spring:
     active: local
   config:
     import: optional:configserver:http://localhost:8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
