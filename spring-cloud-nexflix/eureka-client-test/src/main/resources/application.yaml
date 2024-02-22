@@ -1,10 +1,6 @@
 server:
   port: 8080
 
-spring:
-  application:
-    name: eureka-client-test
-
 eureka:
   client:
     register-with-eureka: true

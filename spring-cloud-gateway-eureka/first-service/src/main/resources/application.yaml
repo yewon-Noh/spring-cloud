@@ -1,10 +1,6 @@
 server:
   port: 8081
 
-spring:
-  application:
-    name: first-service
-
 eureka:
   client:
     fetch-registry: true

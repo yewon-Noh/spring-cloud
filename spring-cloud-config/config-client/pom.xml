@@ -24,6 +24,13 @@
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+            <version>4.1.1</version>
+        </dependency>
+
         <!-- spring actuator -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
